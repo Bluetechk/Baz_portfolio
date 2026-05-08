@@ -7,7 +7,7 @@ const AboutSection = () => {
     <section 
       ref={ref}
       id="about" 
-      className={`py-25 bg-gradient-premium transition-all duration-1000 ${
+      className={`pt-24 pb-8 bg-gradient-premium transition-all duration-1000 ${
         isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
       }`}
     >

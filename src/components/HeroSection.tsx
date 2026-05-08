@@ -27,7 +27,7 @@ const HeroSection = () => {
   }, [isTyping, achievements.length]);
 
   return (
-    <section className="relative min-h-screen flex items-start justify-center text-center pb-10">
+    <section className="relative min-h-screen flex items-start justify-center text-center pb-10 bg-ink-black">
       {/* Background image */}
       <img
         src={heroImg}

@@ -6,15 +6,14 @@ const TruthAbout = () => {
   return (
     <section 
       ref={ref}
-      id="about" 
-      className={`py-25 bg-gradient-premium mt-12 transition-all duration-1000 ${
+      className={`pb-24 pt-4 bg-gradient-premium transition-all duration-1000 ${
         isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
       }`}
     >
       <div className="container px-4">
-            <div className="grid lg:grid-cols-2 gap-12 items-center">
+            <div className="grid lg:grid-cols-2 gap-12 items-start">
                <div className="relative space-y-6 text-foreground/90 leading-relaxed text-base md:text-lg order-2 lg:order-1 px-4 lg:px-8">
-                 <div className="absolute -top-16 -left-4 md:-left-8 text-[180px] text-aqua-blue/10 font-serif leading-none select-none" aria-hidden="true">"</div>
+                 <div className="absolute -top-16 -left-4 md:-left-8 text-[180px] text-aqua-blue/10 font-serif leading-none select-none" aria-hidden="true">“</div>
                  
                  <div className="relative z-10">
                    <h3 className="text-aqua-blue font-display font-bold text-xl md:text-2xl mb-6 tracking-wide">

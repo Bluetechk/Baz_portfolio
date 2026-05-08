@@ -76,12 +76,12 @@ const Navbar = () => {
 
 
       <nav className="sticky top-0 z-50 bg-white/90 backdrop-blur-xl border-b border-gray-200 shadow-sm">
-        <div className="container flex items-center justify-between h-20 md:h-24">
-          <Link to="/" className="flex items-center py-2">
+        <div className="container flex items-center justify-between h-16 md:h-20">
+          <Link to="/" className="flex items-center py-2 -ml-2 md:-ml-4">
             <img 
-              src="/color_typography_logo/real_logo.png" 
+              src="/color_typography_logo/Baz_BarzonLogo_Final.png" 
               alt="Baz Emmanuel Barzon" 
-              className="h-14 md:h-16 lg:h-18 object-contain mix-blend-multiply transition-transform duration-300 hover:scale-105"
+              className="h-16 md:h-20 lg:h-24 object-contain mix-blend-multiply transition-transform duration-300 hover:scale-105"
             />
           </Link>
 

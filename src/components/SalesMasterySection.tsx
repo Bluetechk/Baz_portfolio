@@ -6,7 +6,7 @@ const SalesMasterySection = () => {
   return (
     <section 
       ref={ref}
-      className={`relative py-32 overflow-hidden transition-all duration-1000 ${
+      className={`relative py-32 overflow-hidden bg-ink-black transition-all duration-1000 ${
         isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
       }`}
     >
