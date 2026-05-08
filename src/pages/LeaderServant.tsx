@@ -83,36 +83,35 @@ const LeaderServant = () => {
           <div className="mb-16">
             <h3 className="text-2xl font-black text-ink-black mb-8 tracking-wide">LEADERSHIP IS OFTEN MISUNDERSTOOD</h3>
             
-            <p className="text-gray-600 leading-relaxed mb-6">
-              Many assume it is defined by titles, positions, or authority. But the most enduring forms of leadership rarely begin with power. They begin with influence, example, and service.
-            </p>
+            <div className="bg-white border border-gray-100 shadow-xl rounded-3xl p-8 md:p-10 hover:shadow-2xl hover:-translate-y-1 transition-all duration-500 space-y-6">
+              <p className="text-gray-600 leading-relaxed">
+                Many assume it is defined by titles, positions, or authority. But the most enduring forms of leadership rarely begin with power. They begin with influence, example, and service.
+              </p>
 
-            <p className="text-gray-600 leading-relaxed mb-8">
-              Baz approaches leadership as a responsibility to contribute meaningfully to the lives of others and to the progress of the communities he is part of.
-            </p>
+              <p className="text-gray-600 leading-relaxed">
+                Baz approaches leadership as a responsibility to contribute meaningfully to the lives of others and to the progress of the communities he is part of.
+              </p>
 
-            <div className="bg-white border border-gray-100 shadow-xl rounded-3xl p-8 md:p-10 hover:shadow-2xl hover:-translate-y-1 transition-all duration-500 mb-8">
-              <p className="text-gray-600 leading-relaxed mb-4">
+              <p className="text-gray-600 leading-relaxed">
                 His philosophy of leadership is rooted in a simple but demanding idea: that true leadership is measured not by the positions you hold, but by <strong>how many people grow because of your influence.</strong>
               </p>
+              
               <p className="text-gray-600 leading-relaxed">
                 This perspective shapes the way he engages with young people, emerging leaders, and communities seeking direction.
               </p>
-            </div>
 
-            <div className="bg-white border border-gray-100 shadow-xl rounded-3xl p-8 md:p-10 hover:shadow-2xl hover:-translate-y-1 transition-all duration-500 mb-8">
               <p className="text-gray-600 leading-relaxed">
                 Through mentorship, public engagement, and community initiatives, Baz encourages individuals to see leadership as a discipline that begins with personal disciplines: integrity, and the willingness to serve.
               </p>
-            </div>
 
-            <div className="bg-white border border-gray-100 shadow-xl rounded-3xl p-8 md:p-10 hover:shadow-2xl hover:-translate-y-1 transition-all duration-500">
-              <p className="text-gray-600 leading-relaxed mb-4">
-                Because leadership, at its core, is not about standing above others.
-              </p>
-              <p className="text-gray-600 leading-relaxed font-bold text-ink-black">
-                It is about standing <em>for</em> something that lifts others higher.
-              </p>
+              <div className="pt-2 border-t border-gray-100">
+                <p className="text-gray-600 leading-relaxed mt-4 mb-2">
+                  Because leadership, at its core, is not about standing above others.
+                </p>
+                <p className="text-gray-600 leading-relaxed font-bold text-ink-black text-lg">
+                  It is about standing <em>for</em> something that lifts others higher.
+                </p>
+              </div>
             </div>
           </div>
 

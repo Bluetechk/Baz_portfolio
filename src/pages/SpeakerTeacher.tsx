@@ -64,31 +64,24 @@ const SpeakerTeacher = () => {
               Some ideas inspire. Others transform the way people think.
             </p>
 
-            <div className="bg-white border border-gray-100 shadow-xl rounded-3xl p-8 md:p-10 hover:shadow-2xl hover:-translate-y-1 transition-all duration-500 mb-8">
+            <div className="bg-white border border-gray-100 shadow-xl rounded-3xl p-8 md:p-10 hover:shadow-2xl hover:-translate-y-1 transition-all duration-500 mb-8 space-y-6">
               <p className="text-gray-600 leading-relaxed">
                 Baz speaks on themes at the intersection of personal growth and community leadership—addressing professionals, young people, and community leaders on the disciplines and mindset development needed to navigate complexity with clarity and purpose.
               </p>
-            </div>
-
-            <div className="bg-white border border-gray-100 shadow-xl rounded-3xl p-8 md:p-10 hover:shadow-2xl hover:-translate-y-1 transition-all duration-500 mb-8">
               <p className="text-gray-600 leading-relaxed">
                 His sessions are not built around motivational impact. They are built around <strong>frameworks for thinking</strong>—ideas that challenge individuals to examine their assumptions, strengthen their discipline, and pursue a more intentional life.
               </p>
-            </div>
-
-            <div className="bg-white border border-gray-100 shadow-xl rounded-3xl p-8 md:p-10 hover:shadow-2xl hover:-translate-y-1 transition-all duration-500 mb-8">
               <p className="text-gray-600 leading-relaxed">
                 Over the years, he has taught and facilitated conversations in classrooms, leadership gatherings, media platforms, and mentorship communities, helping individuals translate big ideas into practical action.
               </p>
-            </div>
-
-            <div className="bg-white border border-gray-100 shadow-xl rounded-3xl p-8 md:p-10 hover:shadow-2xl hover:-translate-y-1 transition-all duration-500 mb-8">
-              <p className="text-gray-600 leading-relaxed mb-4">
-                Because the purpose of learning is not simply to know more.
-              </p>
-              <p className="text-gray-600 leading-relaxed font-bold text-ink-black">
-                It is to become more.
-              </p>
+              <div className="pt-2 border-t border-gray-100">
+                <p className="text-gray-600 leading-relaxed mt-4 mb-2">
+                  Because the purpose of learning is not simply to know more.
+                </p>
+                <p className="text-gray-600 leading-relaxed font-bold text-ink-black text-lg">
+                  It is to become more.
+                </p>
+              </div>
             </div>
           </div>
 
